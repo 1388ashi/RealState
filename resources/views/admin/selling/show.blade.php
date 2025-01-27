@@ -51,8 +51,8 @@
                             <li class="list-group-item"><b class="bold">سند: </b>{{ $selling->document }}</li>  
                             <li class="list-group-item"><b class="bold">طبقه: </b>{{ $selling->floor }}</li>  
                             <li class="list-group-item"><b class="bold">تعداد خواب: </b>{{$selling->num_rooms}}</li>  
-                            <li class="list-group-item"><b class="bold">پارکینگ: </b>{{ $selling->parking }}</li>  
-                            <li class="list-group-item"><b class="bold">انباری: </b>{{ $selling->warehouse }}</li>  
+                            <li class="list-group-item"><b class="bold">پارکینگ: </b>{{ $selling->parking == 1 ? 'دارد' ? 'ندارد' }}</li>  
+                            <li class="list-group-item"><b class="bold">انباری: </b>{{ $selling->warehouse == 1 ? 'دارد' ? 'ندارد' }}</li>  
                             <li class="list-group-item"><b class="bold">زیربنا: </b>{{ $selling->infrastructure }}</li>  
                             <li class="list-group-item"><b class="bold">موقعیت: </b>
                                 @if ($selling->location_text == 'north')

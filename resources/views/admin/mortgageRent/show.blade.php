@@ -51,8 +51,8 @@
                             <li class="list-group-item"><b class="bold">تعداد خواب: </b>{{$mortgageRent->num_rooms}}</li>  
                             <li class="list-group-item"><b class="bold">درب: </b>
                                 {{ $mortgageRent->door == 'independent' ? 'مستقل' : 'مشترک' }}</li>  
-                            <li class="list-group-item"><b class="bold">پارکینگ: </b>{{ $mortgageRent->parking }}</li>  
-                            <li class="list-group-item"><b class="bold">انباری: </b>{{ $mortgageRent->warehouse }}</li>  
+                            <li class="list-group-item"><b class="bold">پارکینگ: </b>{{ $selling->parking == 1 ? 'دارد' ? 'ندارد' }}</li>  
+                            <li class="list-group-item"><b class="bold">انباری: </b>{{ $selling->warehouse == 1 ? 'دارد' ? 'ندارد' }}</li>  
                             <li class="list-group-item"><b class="bold">حداکثر تعداد مستاجر: </b>{{ $mortgageRent->tenant }}</li>  
                             <li class="list-group-item"><b class="bold">موقعیت: </b>
                                 @if ($mortgageRent->location_text == 'north')
