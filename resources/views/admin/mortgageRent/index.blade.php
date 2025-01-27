@@ -37,8 +37,8 @@
                                     <th class="border-top">مشتری</th>
                                     <th class="border-top">محله</th>
                                     <th class="border-top">نوع ملک</th>
-                                    <th class="border-top">قیمت رهن</th>
-                                    <th class="border-top">قیمت اجاره</th>
+                                    <th class="border-top">قیمت رهن(تومان)</th>
+                                    <th class="border-top">قیمت اجاره(تومان)</th>
                                     <th class="border-top">وضعیت</th>
                                     <th class="border-top">عملیات</th>
                                 </tr>
